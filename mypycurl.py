@@ -15,7 +15,7 @@ import sys
 import itertools
 
 reason = [u'支援工廠', u'CODE編寫',u'程式驗證']
-row_one_value = [u'工號', u'加班日期', u'加班類型', u'開始日期', u'結束日期', u'用餐否', u'跨天否', u'加班時數', u'加班原因']
+row_one_value = [u'工號', u'加班日期', u'加班類型', u'開始時間', u'結束時間', u'用餐否', u'跨天否', u'加班時數', u'加班原因']
 def help():
 	print '-help	help'
 	print '-o:make personal extra work sheet'
