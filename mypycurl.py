@@ -75,9 +75,9 @@ def timeProcess(data = u''):
 				type = 2
 			row_result.append(str(type))
 			if 1 == type:
-				row_result.append('1800')
-				start_hour = 18
-				start_min = 0
+				row_result.append('1750')
+				start_hour = 17
+				start_min = 30
 			else:
 				temp = row_item[5].split(' ')[1].split(':')
 				if int(temp[1]) < 30:
