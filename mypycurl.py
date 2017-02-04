@@ -75,7 +75,7 @@ def timeProcess(data = u''):
 				type = 2
 			row_result.append(str(type))
 			if 1 == type:
-				row_result.append('1750')
+				row_result.append('1730')
 				start_hour = 17
 				start_min = 30
 			else:
@@ -160,6 +160,7 @@ def arrange():
 			table = file_data.sheet_by_index(0)
 			file_row_data = table.row_values(0)
 			if not file_row_data == row_one_value:
+				print 'error'
 				return False
 			for i in range(table.nrows):
 				value = table.row_values(i)
